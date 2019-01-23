@@ -1,0 +1,323 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	box-sizing: border-box;
+}
+body {
+	color: #444349;
+	font-family: 'Muli', sans-serif;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	background-image: url(https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png);
+}
+h1 {
+	font-family: 'Great Vibes', cursive;
+}
+h2 { font-family: 'Libre Baskerville', serif;
+}
+h3 {
+	text-align: center;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1.375rem;
+	letter-spacing: 2px;
+}
+
+
+
+.cover {
+	background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	text-align: center;
+	display: table;
+}
+.wrapper {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0 .625rem;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.text-wrapper {
+	background-color: rgba(0,0,0,0.50);
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	border-radius: 10px;
+	padding-bottom: 20px;
+}
+
+.date {
+	font-size: 1.125rem;
+	line-height: 1.5rem;
+	letter-spacing: .1rem;
+	margin-bottom: .5rem;
+	font-family: 'Libre Baskerville', serif;
+	color: #e5eaea;
+}
+.date::before,
+.date::after {
+	display: inline-block;
+	content: "";
+	background-color: #e5eaea;
+	height: 1px;
+	width: 1.5rem;
+	vertical-align: middle;
+	margin: 0 .5rem;
+}
+.headline {
+	margin: 2rem 0;
+	font-size: 6.25rem;
+	color: #d2ba87;
+	font-weight: lighter;
+}
+.tagline {
+	font-size: 1rem;
+	line-height: 1.5rem;
+	color: #e5eaea;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: lighter;
+}
+.tagline::after {
+	display: block;
+	content: "";
+	background-color: #e5eaea;
+	height: 1px;
+	width: 12.515625rem;
+	margin: .5rem auto;
+}
+.bright {
+	width: 100%;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+.grey-headline {
+	text-align: center;
+	font-family: 'Great Vibes', cursive;
+	font-size: 3.125rem;
+	font-weight: lighter;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.gold-headline {
+	text-align: center;
+	font-family: 'Great Vibes', cursive;
+	font-size: 3.125rem;
+	font-weight: lighter;
+	color: #d2ba87;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.gold-second-headline {
+	text-align: left;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1.375rem;
+	font-weight: lighter;
+	color: #d2ba87;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.locations-columns {
+	display: inline-block;
+    width: 30%;
+    padding: 1.5rem;
+    margin: .5rem;
+}
+.contact-columns {
+	display: inline-block;
+    width: 45%;
+    padding: 1.5rem;
+    margin: .5rem;
+}
+.locations-columns img {
+	text-align: center;
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-bottom: 25px;
+}
+.questions-columns img {
+	text-align: center;
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-bottom: 25px;
+}
+.locations-columns div {
+	text-align: center;
+	letter-spacing: 1px;
+	padding-top: 5px;
+}
+.dark {
+	width: 100%;
+	background-color: rgba(0,0,0,0.65);
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.program-wrapper {
+	width: 35%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	color: #d2ba87;
+	font-size: 1.1875rem;
+	margin-bottom: 0px;
+}
+.gift-tagline {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1.125rem;
+}
+.questions-columns {
+	display: inline-block;
+	width: 30%;
+	padding: 1.5rem;
+	margin: .5rem;
+	vertical-align: top;
+	text-align: left;
+}
+
+.question {
+	color: #d2ba87;
+	font-weight: bold;
+	font-size: 1.125rem;
+	margin-top: 20px;
+}
+.answer {
+	color: #d2ba87;
+	font-size: 1.125rem;
+	margin-top: 10px;
+}
+a {
+	color: #bd806e;
+	text-decoration: none;
+}
+a:hover {
+	color: #eda087;
+	text-decoration: none;
+}
+ul li {
+	list-style-type: none;
+	text-align: left;
+
+}
+
+footer {
+	background-color: #606060;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+@media (max-width:768px){
+	.cover {
+	background-repeat: no-repeat;
+	background-position: 70% center;
+	background-image: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg');
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	text-align: center;
+	display: table;
+}
+.wrapper {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0 .625rem;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.text-wrapper {
+	background-color: rgba(0,0,0,0.50);
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	border-radius: 10px;
+	padding-bottom: 20px;
+}
+
+.date {
+	font-size: 1rem;
+	line-height: 1.5rem;
+	letter-spacing: .1rem;
+	margin-bottom: .5rem;
+	font-family: 'Libre Baskerville', serif;
+	color: #e5eaea;
+}
+.headline {
+	margin-top: 1.5rem;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 1.5rem;
+	font-size: 3.25rem;
+	color: #d2ba87;
+	font-weight: lighter;
+}
+.tagline {
+	font-size: 0.6rem;
+	line-height: 1.5rem;
+	color: #e5eaea;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: lighter;
+}
+.locations-columns {
+	display: inline-block;
+	width: 100%;
+	padding: 1.5rem;
+	margin-top: -1.25rem;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: .5rem;
+}
+.contact-columns {
+	display: inline-block;
+	width: 100%;
+	padding: 1.5rem;
+	margin-top: .5rem;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: .5rem;
+}
+.program-wrapper {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	color: #d2ba87;
+	font-size: 1.1875rem;
+	margin-bottom: 0px;
+}
+.questions-columns {
+	display: inline-block;
+	width: 90%;
+	padding: 1.5rem;
+	margin-top: 0.5rem;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0.5rem;
+	vertical-align: top;
+	text-align: left;
+}
+
+}
